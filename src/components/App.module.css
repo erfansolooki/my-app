@@ -1,0 +1,52 @@
+.title {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  flex-direction: column;
+  height: 35rem;
+  padding-top: 8rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  justify-content: space-around;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: azure;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.delete {
+  background-color: #fff;
+}
+
+.decrement {
+  background-color: #fc8892;
+}
+
+input {
+  border: 1px solid #b5b1b1;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem;
+}
+
+input:focus {
+  border: 2px solid #b5b1b1;
+}
+
+.value {
+  background-color: azure;
+  border-radius: 50%;
+  padding: 5px 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

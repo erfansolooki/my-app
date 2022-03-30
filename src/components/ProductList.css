@@ -1,0 +1,17 @@
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 25rem;
+  margin-top: 2rem;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+.empty-cart {
+  padding-top: 2rem;
+  transition: all 0.3s ease-in-out;
+}

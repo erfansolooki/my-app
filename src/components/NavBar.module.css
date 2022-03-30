@@ -1,0 +1,26 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 15rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cartItem {
+  font-size: 1.4rem;
+}
+
+.cartQuantity {
+  position: relative;
+  bottom: 13px;
+  right: 7px;
+  background-color: azure;
+  border-radius: 50%;
+  padding: 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
