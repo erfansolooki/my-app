@@ -1,7 +1,7 @@
 .product {
   display: flex;
   justify-content: space-around;
-  width: 60rem;
+  /* width: 60rem; */
   border: 1px solid #e0d8d8;
   border-radius: 10px;
   padding: 2rem;
