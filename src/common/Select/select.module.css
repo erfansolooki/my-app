@@ -1,0 +1,10 @@
+.select {
+    margin: 0 1rem;
+    width: 15rem;
+}
+
+.selectedOption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

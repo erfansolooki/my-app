@@ -21,8 +21,8 @@ const Product = ({
 
   return (
     <div className="product" onClick={click}>
-      <p>our course is : {name}</p>
-      <p>and it's price is : {price}</p>
+      <p>our product is : {name}</p>
+      <p>and it's price is : {price} $</p>
       <p className={styles.value}>{quantity}</p>
       <input type="text" onChange={onChange} value={name} />
       <button onClick={onAdd}>+</button>
